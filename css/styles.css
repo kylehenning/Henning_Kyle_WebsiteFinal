@@ -110,6 +110,7 @@ a {
   position: absolute;
   margin: 18vw -9vw;
   color: white;
+  text-shadow: black 0 2px;
 }
 
 .title-container {
