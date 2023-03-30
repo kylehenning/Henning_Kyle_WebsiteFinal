@@ -106,17 +106,16 @@ a {
 .title {
   /* Looks great on my laptop for now but this will need to be refactored in future */
   rotate: -90deg;
-  font-size: 6.2vw;
+  font-size: 8vw;
   position: absolute;
-  margin: 18vw -9vw;
-  color: white;
-  text-shadow: black 0 2px;
+  margin: 18vw -12vw;
+  color: #47503B;
+  text-shadow: black 0 1px;
 }
 
 .title-container {
   width: 100%;
   height: 100%;
-  
 }
 
 .hours-row {
@@ -222,6 +221,13 @@ h1 {
   text-align: center;
 }
 
+.about-container {
+  background-color: blue;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .info-tag {
   display: flex;
   justify-content: center;
@@ -231,11 +237,20 @@ h1 {
   height: 447px;
   border: 3px solid #47503B;
   background-color: white;
+  position: absolute;
+  margin: 0 0 0 -45vw;
 }
 
-.info-about-tag {
-  grid-column: 1 / -1;
+.owner-img {
+  /* grid-column: 3 / 5; */
+  width: 776px;
+  height: 519px;
+  margin: 3vw 0 0 20vw;
 }
+
+/* .info-about-tag {
+  grid-column: 1 / -1;
+} */
 
 .info-header {
   font-size: 46px;
@@ -252,11 +267,6 @@ h1 {
   background-color: #47503B;
 }
 
-.owner-img {
-  grid-column: 3 / 5;
-  width: 776px;
-  height: 519px;
-}
 
 .grid {
   margin-top: 100px;
