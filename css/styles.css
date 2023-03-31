@@ -222,7 +222,6 @@ h1 {
 }
 
 .about-container {
-  background-color: blue;
   padding-top: 50px;
   display: flex;
   justify-content: center;
@@ -242,37 +241,70 @@ h1 {
 }
 
 .owner-img {
-  /* grid-column: 3 / 5; */
   width: 60%;
   height: auto;
   margin: 3vw 0 0 20vw;
 }
 
-/* .info-about-tag {
-  grid-column: 1 / -1;
-} */
-
-@media (max-width: 650px) {
-  .about-container {
-    background-color: green;
-    /* display: block; */
-  }
-
-  .info-tag {
-    width: 35%;
-  }
-
-
-}
-
 .info-header {
-  font-size: 4vw;
+  font-size: 46px;
   width: 100%;
 }
 
 .info-body {
-  font-size: 2vw;
+  font-size: 28px;
 }
+
+@media (max-width: 1200px) {
+  .info-header {
+    font-size: 4vw;
+  }
+
+  .info-body {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-container {
+    display: block;
+  }
+
+  .info-tag {
+    width: 30%;
+    margin-left: 5vw;
+  }
+
+  .info-header {
+    font-size: 5vw;
+  }
+
+  .info-body {
+    font-size: 2.3vw;
+  }
+
+  .owner-img {
+    width: 65%;
+    margin-left: 25vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .info-tag {
+    margin-left: 2vw;
+    width: 35%;
+  }
+
+  .info-body {
+    font-size: 2.5vw;
+  }
+
+  .owner-img {
+    margin-left: 22vw;
+    width: 75%;
+  }
+}
+
 
 .info-line {
   width: 50%;
