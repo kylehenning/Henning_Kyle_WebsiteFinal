@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-img-container {
+    width: 40%;
+  }
+  
+  .nav-img {
+    width: 70%;
+    height: "auto";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .nav-item {
+    font-family: 'Rockwell';
+    font-size: 26px;
+    font-weight: bold;
+    color: #47503B;
+  }
+  
+  .kasama-button {
+    font-family: 'Rockwell';
+    background-color: #47503B;
+    color: white;
+    border: 3px solid #47503B;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kasama-button:hover {
+    font-family: 'Rockwell';
+    background-color: white;
+    color: #47503B;
+    border: 3px solid #47503B;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-button {
+    font-size: 26px;
+    padding: 10px 3px 10px 3px;
+  }
+  
+  .show-nav {
+    display: none;
+  }
+  
+  .hamburger-container {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .hamburger-icon {
+    display: inline-block;
+    cursor: pointer;
+    color: #47503B;
+    padding-right: 3%;
+  }
+  
+  .title {
+    rotate: -90deg;
+    font-size: 8vw;
+    position: absolute;
+    margin: 18vw -12vw;
+    color: #47503B;
+    text-shadow: black 0 1px;
+  }
+  
+  .title-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hours-row {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hours-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    border: 4px solid #47503B;
+  }
+  
+  h2 {
+    font-family: 'Rockwell';
+    font-size: 4vw;
+    font-weight: bold;
+    color: #47503B;
+  }
+  
+  p {
+    font-family: 'Rockwell';
+    color: #47503B;
+  }
+  
+  .hours-text {
+    text-align: center;
+    font-size: 3vw;
+    line-height: 0%;
+  }
+  
+  h1 {
+    font-family: 'Rockwell';
+    color: #47503B;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 1px;
+  }
+  
+  .dishes-line {
+    width: 15%;
+    height: 3px;
+    background-color: #47503B;
+  }
+  
+  .dishes-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+  
+  .display-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  
+  .card {
+    border: 2px solid #47503B;
+    width: 85%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .card-text-header {
+    font-size: 26px;
+  }
+  
+  .card-text-body {
+    font-size: 24px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  
+  .about-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info-tag {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    border: 3px solid #47503B;
+    background-color: white;
+  }
+  
+  .owner-info-tag {
+    position: absolute;
+    margin-right: 45vw;
+  }
+  
+  .owner-img {
+    width: 60%;
+    height: auto;
+    margin: 3vw 0 0 20vw;
+  }
+  
+  .info-header {
+    font-size: 46px;
+    width: 100%;
+  }
+  
+  .info-body {
+    font-size: 28px;
+    padding: 0 5px 0 5px;
+  }
+  
+  .info-line {
+    width: 50%;
+    height: 3px;
+    background-color: #47503B;
+  }
+  
+  .join-line {
+    width: 10%;
+    height: 3px;
+    background-color: #47503B;
+  }
+  
+  .location-container {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .location-button {
+    font-size: 30px;
+    padding: 10px 3px 10px 3px;
+  }
+  
+  .location-img {
+    width: 70%;
+    height: auto;
+    margin-right: 20vw;
+  }
+  
+  .location-info-tag {
+    position: absolute;
+    margin: 30vw 0 0 60vw;
+    padding-bottom: 6vw ;
+  }
+  
+  .footer {
+    background-color: #47503B;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .footer-row {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  
+  .footer-logo {
+    width: 30%;
+    height: auto;
+  }
+  
+  .media-icon {
+    padding: 5px;
+  }
+  
+  .media-icon-img {
+    width: 4vw;
+    height: auto;
+  }
+  
+  .footer-split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-text {
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 1000px) {
+    .nav-item {
+      font-size: 2vw;
+    }
+  
+    .nav-button {
+      font-size: 2vw;
+    }
+  
+    .location-button {
+      font-size: 2.5vw;
+      padding: 1.5vw 0.5vw 1.5vw 0.5vw;
+    }
+  
+    .footer-text {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 850px) {
+    .nav-img {
+      width: 50%;
+    }
+  
+    .show-nav {
+      display: flex;
+    }
+  
+    .hamburger-icon {
+      display: none;
+    }
+  
+    .hamburger-container {
+      width: 0%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .info-header {
+      font-size: 4vw;
+    }
+  
+    .info-body {
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 975px) {
+    .display-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .dishes-line {
+      width: 25%;
+    }
+  
+    .join-line {
+      width: 20%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .display-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .location-container {
+      padding-bottom: 25vw;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .about-container {
+      display: block;
+    }
+  
+    .info-tag {
+      width: 30%;
+    }
+  
+    .owner-info-tag {
+      margin-left: 5vw;
+    }
+  
+    .info-header {
+      font-size: 5vw;
+    }
+  
+    .info-body {
+      font-size: 2.3vw;
+      padding: 0;
+    }
+  
+    .info-line {
+      height: 2px;
+    }
+  
+    .hours-box {
+      border: 2px solid #47503B;
+    }
+  
+    .owner-img {
+      width: 65%;
+      margin-left: 25vw;
+    }
+  
+    .location-img {
+      width: 75%;
+    }
+  
+    h1 {
+      font-size: 10vw;
+    }
+  
+  }
+  
+  @media (max-width: 450px) {
+    .info-tag {
+      width: 35%;
+    }
+    .owner-info-tag {
+      margin-left: 2vw;
+    }
+  
+    .info-body {
+      font-size: 2.5vw;
+    }
+  
+    .info-line {
+      height: 1px;
+    }
+  
+    .owner-img {
+      margin-left: 22vw;
+      width: 75%;
+    }
+  
+    .location-img {
+      width: 85%;
+      margin-right: 12vw;
+    }
+  }

@@ -6,30 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Website Project: CSS</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-	<link rel="stylesheet" href="css/styles.css">
-
-
+	<link rel="stylesheet" href="Stylesheet/stylesheet.css">
 </head>
 <body>
-	<div class="nav">
-		<div class="nav-img-container">
+	<nav class="nav">
+		<section class="nav-img-container">
 			<img src="images/Logo.jpg" alt="Kasama Logo" class="nav-img">
-		</div>
-		<div class="hamburger-container">
+		</section>
+		<section class="hamburger-container">
 			<span class="material-symbols-outlined hamburger-icon">menu</span>
-		</div>
-		<div class="nav-links show-nav">
+		</section>
+		<section class="nav-links show-nav">
 			<a href="https://tothestars.netlify.app/" class="nav-item">Dishes</a>
 			<a href="https://tothestars.netlify.app/" class="nav-item">About Us</a>
 			<a href="https://tothestars.netlify.app/" class="nav-item">Location</a>
 			<a href="https://tothestars.netlify.app/" class="kasama-button nav-button">Make Reservation</a>
-		</div>
-	</div>
-	<div class="title-container">
+		</section>
+	</nav>
+	<header class="title-container">
 		<h1 class="title">Kasama</h1>
 		<img src="images/Kasama2edit.jpg" alt="Image of the kitchen of Kasama" width="100%" height="auto">
-	</div>
-	<div class="hours-row">
+	</header>
+	<section class="hours-row">
 		<div class="hours-box">
 			<h2>Hours:</h2>
 			<div>
@@ -37,10 +35,10 @@
 				<p class="hours-text">9am - 8pm</p>
 			</div>
 		</div>
-	</div>
+	</section>
 	<h1>Top Dishes</h1>
 	<hr class="dishes-line">
-	<div class="display-grid">
+	<section class="display-grid">
 		<div class="card">
 			<img src="images/Dish1.jpg" alt="Image of Lumpia Shanghai Dish" class="card-img" >
 			<div class="card-text">
@@ -71,24 +69,9 @@
 					sweet chili.</p>
 			</div>
 		</div>
-	</div>
-	<!-- <div class="grid about-grid">
-		<img src="images/KasamaOwners.jpg" alt="Image of the owners of Kasama" class="owner-img">
-		<div class="info-tag info-about-tag">
-			<h1 class="info-header">A Little About Us</h1>
-			<hr class="info-line">
-			<p class="info-body">Meet the Kasama chefs 
-				Genie Kwon and 
-				Timothy Flores! At 
-				Kasama, we work hard 
-				to make sure your visit 
-				is excellent while 
-				enjoying fine Filipino 
-				food!</p>
-		</div>
-	</div> -->
-	<div class="about-container">
-		<div class="info-tag ">
+	</section>
+	<section class="about-container">
+		<div class="info-tag owner-info-tag">
 			<h1 class="info-header">A Little About Us</h1>
 			<hr class="info-line">
 			<p class="info-body">Meet the Kasama chefs 
@@ -101,31 +84,30 @@
 				food!</p>
 		</div>
 		<img src="images/KasamaOwners.jpg" alt="Image of the owners of Kasama" class="owner-img">
-	</div>
-	<!-- <h1>Join Us</h1>
+	</section>
+	<h1>Join Us</h1>
 	<hr class="join-line">
-	<div class="grid location-grid">
+	<section class="location-container">
 		<img src="images/Chicago1.jpg" alt="Image of the streets of Chicago" class="location-img">
-		<div class="info-tag info-location-tag">
+		<div class="info-tag location-info-tag">
 			<h1 class="info-header">Location</h1>
 			<hr class="info-line">
 			<p class="info-body">1001 N. Winchester Ave.
 				Chicago, Illinois 60622</p>
-				<a href="https://tothestars.netlify.app/" class="kasama-button location-button">Get Directions</a>
+			<a href="https://tothestars.netlify.app/" class="kasama-button location-button">Get Directions</a>
 		</div>
-	</div> -->
-	<!-- <div class="footer">
+	</section>
+	<footer class="footer">
 		<div class="footer-row">
 			<div class="footer-split">
-				<img src="images/logo.jpg" alt="Kasama Logo" width="478" height="153">
-				
+				<img src="images/logo.jpg" alt="Kasama Logo" class="footer-logo">
 				<p class="footer-text">February 24, 2023 | Web Design 1 | Kyle Henning</p>
-				<div class="media-icon-group">
-					<a href="https://www.instagram.com/kasamachicago/" class="media-icon"><img src="images/Instagram_Glyph_White.png" alt="Icon of Instagram logo" width="60" height="60"></a>
-					<a href="https://www.facebook.com/kasamachicago/?modal=admin_todo_tour" class="media-icon"><img src="images/f_logo_RGB-White_58.png" alt="Icon of Facebook logo" width="60" height="60"></a>
+				<div>
+					<a href="https://www.instagram.com/kasamachicago/" class="media-icon"><img src="images/Instagram_Glyph_White.png" alt="Icon of Instagram logo" class="media-icon-img"></a>
+					<a href="https://www.facebook.com/kasamachicago/?modal=admin_todo_tour" class="media-icon"><img src="images/f_logo_RGB-White_58.png" alt="Icon of Facebook logo" class="media-icon-img"></a>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</footer>
 </body>
 </html>
